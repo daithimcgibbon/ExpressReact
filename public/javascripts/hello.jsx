@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+var test = 'for the last time'
+
 class Hello extends React.Component {
   render()  {
-    return <h1>Hello</h1>
+    return <h1>Hello {test} </h1>
   }
 }
 
