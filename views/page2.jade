@@ -1,4 +1,12 @@
 extends layout
 
 block content
-  h1 Page Two
+  h1= title
+  
+  div#hello
+  div#world
+  div#page2Message
+  
+  a(href='/page2') click here for page 2
+  
+  script(type='text/javascript', src='javascripts/bundle.js')
