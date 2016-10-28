@@ -1,12 +1,10 @@
-doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    
-  body
-    block content
-      h1= title
-      div#hello
-      div#world
-      script(type='text/javascript', src='javascripts/bundle.js')
+extends layout
+
+block content
+  h1= title
+  div#hello
+  div#world
+  
+  a(href='/page2') click here for page 2
+  
+  script(type='text/javascript', src='javascripts/bundle.js')
