@@ -1,2 +1,2 @@
-import Hello from './hello.jsx'
-import World from './world.jsx'
+import Hello from '../jsx/hello.jsx'
+import World from '../jsx/world.jsx'
