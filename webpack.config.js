@@ -8,6 +8,7 @@ module.exports = {
     entry: {
         header: APP_DIR + '/header.jsx',
         info: APP_DIR + '/info.jsx',
+        loginForm: APP_DIR + '/loginForm.jsx',
         footer: APP_DIR + '/footer.jsx'
     },
     output: {

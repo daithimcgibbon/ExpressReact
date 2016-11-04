@@ -1,11 +1,17 @@
 extends layout
 
 block content
-  div#header
-  div#info
-  a(href='/goodbye') exit
-  div#footer
+  div(class="container-fluid")
+    div(id="header", class=" jumbotron text-center")
+    div(class="row")
+      div(class="col-sm-3")
+      div(class="col-sm-6 text-center")
+        div(id="loginForm")
+      div(class="col-sm-3")
+    div(id="footer")
 
+  script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+  script(type='text/javascript', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
   script(type='text/javascript', src='../build/header.js')
-  script(type='text/javascript', src='../build/info.js')
+  script(type='text/javascript', src='../build/loginForm.js')
   script(type='text/javascript', src='../build/footer.js')
