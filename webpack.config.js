@@ -7,7 +7,8 @@ var APP_DIR = path.resolve(__dirname, 'public/jsx');
 module.exports = {
     entry: {
         header: APP_DIR + '/header.jsx',
-        info: APP_DIR + '/info.jsx'
+        info: APP_DIR + '/info.jsx',
+        footer: APP_DIR + '/footer.jsx'
     },
     output: {
         path: BUILD_DIR,

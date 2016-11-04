@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "build": "webpack -p",
-    "rebuild": "npm run build && npm start"
+    "rebuild": "npm run build && npm start && nodemon ./bin/www",
+    "with-auto-restart": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -24,6 +25,7 @@
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "nodemon": "^1.11.0",
     "webpack": "^1.12.12"
   }
 }
